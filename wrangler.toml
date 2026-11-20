@@ -11,4 +11,4 @@ SUPPORT_WEBAPP = "0"                            # "1" — открывать с�
 [[d1_databases]]
 binding = "DB"
 database_name = "calorie-bot"
-database_id = "PASTE_DATABASE_ID"
+database_id = "9209a036-0156-48f9-b580-f35dbf8eac77"
