@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY,
+  username TEXT,
+  first_name TEXT,
+  first_seen INTEGER NOT NULL,
+  last_seen INTEGER NOT NULL,
+  started INTEGER NOT NULL DEFAULT 0
+);
+CREATE TABLE IF NOT EXISTS launches (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  ts INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_launches_ts ON launches(ts);
+CREATE INDEX IF NOT EXISTS idx_launches_user ON launches(user_id);
