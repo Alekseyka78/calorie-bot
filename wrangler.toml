@@ -5,8 +5,8 @@ compatibility_date = "2025-06-01"
 [vars]
 OWNER_ID = "314364232"                          # ваш Telegram ID (узнать: команда /id в боте)
 WEBAPP_URL = "https://alekseyka78.github.io/calorie-bot/"  # адрес мини-приложения (GitHub Pages)
-SUPPORT_URL = "https://example.com/thanks"      # ссылка для благодарности (СБП, Boosty, CloudTips…)
-SUPPORT_WEBAPP = "0"                            # "1" — открывать страницу благодарности внутри Telegram
+SUPPORT_URL = "https://pay.cloudtips.ru/p/9cc32679"      # ссылка для благодарности (СБП, Boosty, CloudTips…)
+SUPPORT_WEBAPP = "1"                            # "1" — открывать страницу благодарности внутри Telegram
 
 [[d1_databases]]
 binding = "DB"
